@@ -1,5 +1,5 @@
 void setup() {
-  size(1000, 1000);
+  size(800, 800);
   background(255);
 }
 
@@ -28,7 +28,7 @@ void draw() {
   for (int j = 0; j < 80; j++) {
     for (int i = 0; i < 100; i++) {
       fill(80 + (int)(Math.random()*100), 100 + (int)(Math.random()*100), 225);
-      scale(a-200, b + 250);
+      scale(a-350, b - 175);
       a += 300;
     }
     a = 0;
